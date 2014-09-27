@@ -4,7 +4,7 @@ Purpose
 Move embedLanguage to a site specific setting, add custom LinkManager, set .net culture based on sitecore context language for formatting dates, currencies, etc.
 
 Compatibility
-The codebase is compatible with Sitecore 6.6.x releases and should be compatible with earlier releases.
+The codebase is compatible with Sitecore 6.6.x releases and at least through Sitecore 7.2.x. and should be compatible with earlier releases.
 This assumes you are using the latest version of the Partial Language Fallback Module
 http://marketplace.sitecore.net/en/Modules/Language_Fallback.aspx
 However you shouldn't have to use fallback for these updates, you could just grab the updates out of the config file an apply them within a different config
@@ -27,4 +27,4 @@ Testing
 3. Output some dates and currencies, view in an English language and then in another language
 4. See that the formatting actually outputd different currency signs and date formats, etc
 
-Review the blog series about Partial Language Fallback on Sitecore, link TBD
+Review the blog series about Partial Language Fallback on Sitecore, http://www.sitecore.net/en-gb/Learn/Blogs/Technical-Blogs/Elizabeth-Spranzani.aspx
